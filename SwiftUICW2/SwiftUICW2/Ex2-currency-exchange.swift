@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct Exercise2: View {
+    
     var body: some View {
         
         ZStack {
@@ -26,7 +27,8 @@ struct Exercise2: View {
                         .multilineTextAlignment(.center)
                         .padding()
                     
-                    Text("استبدل هذا ب Text Field")
+                   // Text("استبدل هذا ب Text Field")
+                        
                         .font(.largeTitle)
                         .multilineTextAlignment(.center)
                         .keyboardType(.decimalPad)
@@ -37,8 +39,9 @@ struct Exercise2: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50)
+                           
+                           
                             
-                            Text("0")
                         }
                         HStack(spacing: 40){
                             Image("uk")
